@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Poppins-bold;
+    src: url('../Fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Poppins-light;
+    src: url('../Fonts/Poppins/Poppins-Light.ttf');
+}
+
+.navbar-brand {
+    font-family: Poppins-bold;
+    letter-spacing: 7px;
+}
+
+.bg-unnes {
+    background-image: url("../image/Unnes.jpg");
+    background-size: cover;
+    height: 40vh;
+    box-sizing: border-box;
+}
+
+.txt-1 {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 5%, rgba(0, 212, 255, 0) 100%);
+    font-family: Poppins-bold;
+}
+
+.ptop {
+    padding-top: 6% !important;
+}
+
+.new_project_taital {
+    float: left;
+    font-size: 40px;
+    color: #363636;
+    font-family: Poppins-bold;
+}
+
+.new_project_text{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #363636;
+    margin: 0px;
+    text-align: center;
+}
+
+.new_text {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #363636;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.new_project_section{
+    width: 100%;
+    float: left;
+    height: 140vh;
+}
+
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+.new_project_section_2 {
+    width: 100%;
+    float: left;
+    height: 350px;
+    padding: 0px;
+    margin-top: 90px;
+}
+
+.edit {
+    padding: 10vh 10vw;
+}
+
+.zoom {
+    padding: 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: transform .2s;
+    width: 330px;
+    height: 260px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2); 
+  cursor: pointer;
+}
+.zoom:hover .new_text{
+    color: #faaa28;
+}
+
+.image_6{
+    width: 50%;
+}
+
+.row-2 {
+    margin-top: 7%;
+}

@@ -1,0 +1,58 @@
+.section_list {
+    width: 80%;
+    border-radius: 20%;
+}
+
+.table-style {
+    border: 1px gray solid;
+}
+
+.btn-style {
+    transition: transform .2s;
+}
+
+.btn-style:hover {
+    transform: scale(1.05);
+}
+
+.btn-page {
+    border: 1px gray solid;
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    transition: transform .2s;
+}
+
+.btn-page:hover {
+    transform: scale(1.2);
+}
+
+.popup1 {
+    position: fixed;
+    top: 0;
+    width: 0;
+    height: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.719);
+    padding-top: 10vh;
+    transition: all .2s;
+} 
+
+.popup2 {
+    position: fixed;
+    top: 0;
+    width: 0;
+    height: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.719);
+    padding-top: 10vh;
+    transition: all .2s;
+} 
+
+.popup-content{
+    background-color: white;
+    width: 70vh;
+    height: 80vh;
+    border-radius: 20px;
+    padding: 10vh 20px;
+}
